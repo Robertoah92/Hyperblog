@@ -1,10 +1,27 @@
 body
 {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #f0f0f0;
+    color: #7633a2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin: 0px;
     padding: 0px;
     text-align: center;
+}
+p
+{
+    color: #494949;
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+#container
+{
+    margin: 30px auto;
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
 }
