@@ -18,9 +18,9 @@ p
 }
 .container
 {
+    display: flex;
     margin: 30px auto;
     width: 70%;
-    padding: 1em;
     text-align: left;
     background-color: #ffffff;
     border-radius: 10px;
@@ -37,9 +37,11 @@ p
     flex-wrap: wrap;
     
 }
-.post
+.innerContainer
 {
-    margin:20px auto;
+    display: block;
+    margin: 3% auto;
+    width: 95%;
 }
 .innerBlogContainer
 {
@@ -48,7 +50,6 @@ p
 }
 .contenido
 {
-    padding: 1em;
     box-shadow: -5px 5px 30px -10px #6e6e6e;
 }
 .cabecera 
@@ -56,7 +57,29 @@ p
     background-color: #5596EB;
     color: #ffffff;
     font-size: 1.5em;
-    padding: 0.5em;
     text-align: center;
     box-shadow: -5px 5px 20px -5px #6e6e6e;
+}
+.innerContainerImg
+{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.padImg {
+    padding: 0
+}
+h1
+{
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
 }
