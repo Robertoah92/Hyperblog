@@ -20,10 +20,3 @@ Experimento 1
 
 Experimento 2
 
-##Pruebas de Cherry-pick
-
-*Primer prueba
-
-*Prueba de segundo commit
-
-*Prueba de tercer commit Cherry-pick
